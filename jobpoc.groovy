@@ -9,7 +9,7 @@ pipelineJob('job-poc') {
                 activeChoiceParam('DESTINO') {
                   choiceType('SINGLE_SELECT')
                   groovyScript {
-                    script("['seleccione:selected',' q1',' q5',' q6',' q7',' q8']")
+                    script("[' q1',' q5',' q6',' q7',' q8']")
 
                                  
                     fallbackScript('return ["ERROR"]')
