@@ -26,7 +26,7 @@ pipelineJob('job-poc') {
     gitParam('branch') {
     description 'Favor seleccione branch'
     type 'BRANCH'
-    defaultValue 'testing'
+    defaultValue 'master'
     }
   }
   definition {
